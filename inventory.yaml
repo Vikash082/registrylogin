@@ -1,0 +1,24 @@
+# Sample inventory file
+#
+# Array of info of servers
+#
+# Mandatory fields:
+#   username: username of server
+#   ip: ip of server
+#   password/authfileloc
+#
+# Optional fields:
+#   sudo: True/False
+#   registryclient: docker/podman (default docker)
+
+# - username: "fakeuser"
+#   ip: "fakeserver"
+#   password: "fakepassword"
+#   registryclient: "docker"
+#   authfileloc: "/path/to/key/of/server"
+#   sudo: False
+
+- username: "fakeuser"
+  ip: "fakeserver"
+  password: "fakepassword"
+  registryclient: "podman"
